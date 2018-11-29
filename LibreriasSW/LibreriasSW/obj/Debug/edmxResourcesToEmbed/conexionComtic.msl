@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="lmonsalveModelStoreContainer" CdmEntityContainer="lmonsalveEntities">
+    <EntitySetMapping Name="Estudiante">
+      <EntityTypeMapping TypeName="lmonsalveModel.Estudiante">
+        <MappingFragment StoreEntitySet="Estudiante">
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inventario">
+      <EntityTypeMapping TypeName="lmonsalveModel.Inventario">
+        <MappingFragment StoreEntitySet="Inventario">
+          <ScalarProperty Name="Id_Inventario" ColumnName="Id_Inventario" />
+          <ScalarProperty Name="Codigo_Libro" ColumnName="Codigo_Libro" />
+          <ScalarProperty Name="Libro" ColumnName="Libro" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Documento_Estudiante" ColumnName="Documento_Estudiante" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vista_Prestamos">
+      <EntityTypeMapping TypeName="lmonsalveModel.Vista_Prestamos">
+        <MappingFragment StoreEntitySet="Vista_Prestamos">
+          <ScalarProperty Name="Libro" ColumnName="Libro" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="DevolverLibro" FunctionName="lmonsalveModel.Store.DevolverLibro" />
+    <FunctionImportMapping FunctionImportName="IngresarEstudiante" FunctionName="lmonsalveModel.Store.IngresarEstudiante" />
+    <FunctionImportMapping FunctionImportName="IngresarLibro" FunctionName="lmonsalveModel.Store.IngresarLibro" />
+    <FunctionImportMapping FunctionImportName="PrestarLibro" FunctionName="lmonsalveModel.Store.PrestarLibro" />
+  </EntityContainerMapping>
+</Mapping>

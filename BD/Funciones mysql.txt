@@ -1,0 +1,100 @@
+
+
+CREATE DEFINER=`lmonsalve`@`%` FUNCTION `DevolverLibro`(
+Cedula_ varchar(20),
+CodigoLibro_ VARCHAR(15)) RETURNS int(11)
+BEGIN
+	declare Exitoso varchar(3);
+	IF EXISTS (SELECT P.CODIGO_LIBRO, I.ESTADO_LIBRO FROM TBLPRESTAMO P
+				INNER JOIN TBLINVENTARIO I ON P.CODIGO_LIBRO = I.ID_CODIGO
+				WHERE P.CODIGO_LIBRO = CodigoLibro_
+				AND P.DOCUMENTO_ESTUDIANTE = Cedula_
+				AND I.ESTADO_LIBRO = 1) THEN
+			BEGIN
+				UPDATE TBLPRESTAMO P INNER JOIN TBLINVENTARIO I ON P.CODIGO_LIBRO = I.ID_CODIGO
+				SET P.FECHA_FIN = NOW(), I.ESTADO_LIBRO = 0 WHERE P.CODIGO_LIBRO = CodigoLibro_ 
+				AND I.ESTADO_LIBRO = 1;
+				SET Exitoso = 1;
+            end;
+		else
+			SET Exitoso = 0;
+END IF;
+RETURN Exitoso;
+END
+
+
+CREATE DEFINER=`lmonsalve`@`%` FUNCTION `GestionarEstudiante`(CedulaEstudiante_ VARCHAR(20), NombreEstudiante_ VARCHAR(50)) RETURNS varchar(3) CHARSET latin1
+BEGIN
+DECLARE Exitoso varchar(3);
+	IF NOT EXISTS (SELECT * FROM TBLESTUDIANTE
+				WHERE DOCUMENTO = CedulaEstudiante_) THEN
+                BEGIN
+					INSERT INTO TBLESTUDIANTE (DOCUMENTO, NOMBRE) VALUES (CedulaEstudiante_, NombreEstudiante_);
+                    SET Exitoso = 1;
+                END;
+	ELSE
+		BEGIN
+			SET Exitoso = 0;
+        END;
+END IF;
+RETURN Exitoso;
+END
+
+
+CREATE DEFINER=`lmonsalve`@`%` FUNCTION `GestionarInventario`(CodigoLibro_ VARCHAR(15), Libro_ varchar(50)) RETURNS varchar(3) CHARSET latin1
+BEGIN
+DECLARE Exitoso varchar(3);
+	IF NOT EXISTS (SELECT * FROM TBLINVENTARIO
+					WHERE ID_CODIGO = CodigoLibro_) then
+                    BEGIN
+						INSERT INTO TBLINVENTARIO (ID_CODIGO, NOMBRE_LIBRO) VALUES (CodigoLibro_, Libro_);
+                        SET Exitoso = 1;
+                    END;
+	ELSE
+    BEGIN
+		SET Exitoso = 0;
+    END;
+END IF;
+RETURN Exitoso;
+END
+
+
+CREATE DEFINER=`lmonsalve`@`%` FUNCTION `PrestarLibro`(Cedula_ varchar(20), CodigoLibro_ varchar(15)) RETURNS int(11)
+BEGIN
+	DECLARE Exitoso varchar(3);
+	IF EXISTS(SELECT I.ID_CODIGO, I.ESTADO_LIBRO FROM TBLINVENTARIO I
+				WHERE I.ID_CODIGO = CodigoLibro_
+				AND I.ESTADO_LIBRO = 1) THEN
+                    BEGIN
+						SET Exitoso = 0;
+                    END;    
+    
+	ELSEIF EXISTS (SELECT I.ID_CODIGO, I.ESTADO_LIBRO FROM TBLINVENTARIO I
+				WHERE I.ID_CODIGO = CodigoLibro_
+				AND I.ESTADO_LIBRO = 0) THEN
+                
+                IF EXISTS (SELECT * FROM TBLESTUDIANTE E
+					WHERE E.DOCUMENTO = Cedula_)THEN
+                    BEGIN
+						INSERT INTO TBLPRESTAMO (FECHA_INICIO, DOCUMENTO_ESTUDIANTE, CODIGO_LIBRO) VALUES (NOW(), Cedula_, CodigoLibro_);
+                        UPDATE TBLINVENTARIO SET ESTADO_LIBRO =1 WHERE ID_CODIGO = CodigoLibro_;
+						SET Exitoso = 1;
+					END;
+                END IF;
+	IF EXISTS(SELECT I.ID_CODIGO, I.ESTADO_LIBRO FROM TBLINVENTARIO I
+					WHERE I.ID_CODIGO = CodigoLibro_
+					AND I.ESTADO_LIBRO = 0) THEN
+					
+						IF NOT EXISTS (SELECT * FROM TBLESTUDIANTE E
+							WHERE E.DOCUMENTO = Cedula_) THEN
+                            BEGIN
+								SET Exitoso = 2;
+                            END;
+						END IF;
+	END IF;
+	ELSE
+			SET Exitoso = 3; -- No se encuentra codigo del libro
+	END IF;
+
+RETURN Exitoso;
+END

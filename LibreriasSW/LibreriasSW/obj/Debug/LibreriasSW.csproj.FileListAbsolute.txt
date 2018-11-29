@@ -1,0 +1,20 @@
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\LibreriasSW\LibreriasSW\bin\Debug\LibreriasSW.dll.config
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\LibreriasSW\LibreriasSW\bin\Debug\LibreriasSW.dll
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\LibreriasSW\LibreriasSW\bin\Debug\LibreriasSW.pdb
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\LibreriasSW\LibreriasSW\bin\Debug\EntityFramework.dll
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\LibreriasSW\LibreriasSW\bin\Debug\MySql.Data.dll
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\LibreriasSW\LibreriasSW\bin\Debug\EntityFramework.xml
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\LibreriasSW\LibreriasSW\bin\Debug\MySql.Data.xml
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\LibreriasSW\LibreriasSW\obj\Debug\LibreriasSW.csprojResolveAssemblyReference.cache
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\LibreriasSW\LibreriasSW\obj\Debug\LibreriasSW.dll
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\LibreriasSW\LibreriasSW\obj\Debug\LibreriasSW.pdb
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\LibreriasSW\LibreriasSW\bin\Debug\LibreriasSW.dll.config
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\LibreriasSW\LibreriasSW\bin\Debug\LibreriasSW.dll
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\LibreriasSW\LibreriasSW\bin\Debug\LibreriasSW.pdb
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\LibreriasSW\LibreriasSW\bin\Debug\EntityFramework.dll
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\LibreriasSW\LibreriasSW\bin\Debug\MySql.Data.dll
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\LibreriasSW\LibreriasSW\bin\Debug\EntityFramework.xml
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\LibreriasSW\LibreriasSW\bin\Debug\MySql.Data.xml
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\LibreriasSW\LibreriasSW\obj\Debug\LibreriasSW.csprojResolveAssemblyReference.cache
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\LibreriasSW\LibreriasSW\obj\Debug\LibreriasSW.dll
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\LibreriasSW\LibreriasSW\obj\Debug\LibreriasSW.pdb

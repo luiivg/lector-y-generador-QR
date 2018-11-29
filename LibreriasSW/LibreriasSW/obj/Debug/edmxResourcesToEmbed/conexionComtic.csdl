@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="lmonsalveModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Estudiante">
+    <Key>
+      <PropertyRef Name="Documento" />
+    </Key>
+    <Property Name="Documento" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Inventario" Relationship="Self.Inventario_ibfk_1" FromRole="Estudiante" ToRole="Inventario" />
+  </EntityType>
+  <EntityType Name="Inventario">
+    <Key>
+      <PropertyRef Name="Id_Inventario" />
+    </Key>
+    <Property Name="Id_Inventario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Codigo_Libro" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="Libro" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="Boolean" />
+    <Property Name="Documento_Estudiante" Type="Int32" />
+    <NavigationProperty Name="Estudiante" Relationship="Self.Inventario_ibfk_1" FromRole="Inventario" ToRole="Estudiante" />
+  </EntityType>
+  <EntityType Name="Vista_Prestamos">
+    <Key>
+      <PropertyRef Name="Documento" />
+    </Key>
+    <Property Name="Libro" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Documento" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="Inventario_ibfk_1">
+    <End Role="Estudiante" Type="Self.Estudiante" Multiplicity="0..1" />
+    <End Role="Inventario" Type="Self.Inventario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estudiante">
+        <PropertyRef Name="Documento" />
+      </Principal>
+      <Dependent Role="Inventario">
+        <PropertyRef Name="Documento_Estudiante" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="lmonsalveEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Estudiante" EntityType="Self.Estudiante" />
+    <EntitySet Name="Inventario" EntityType="Self.Inventario" />
+    <EntitySet Name="Vista_Prestamos" EntityType="Self.Vista_Prestamos" />
+    <AssociationSet Name="Inventario_ibfk_1" Association="Self.Inventario_ibfk_1">
+      <End Role="Estudiante" EntitySet="Estudiante" />
+      <End Role="Inventario" EntitySet="Inventario" />
+    </AssociationSet>
+    <FunctionImport Name="DevolverLibro">
+      <Parameter Name="p_Cedula" Mode="In" Type="Int32" />
+      <Parameter Name="p_codigoLibro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="IngresarEstudiante">
+      <Parameter Name="p_CedulaEstudiante" Mode="In" Type="Int32" />
+      <Parameter Name="p_NombreEstudiante" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="IngresarLibro">
+      <Parameter Name="p_Codigo_Libro" Mode="In" Type="String" />
+      <Parameter Name="p_libro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="PrestarLibro">
+      <Parameter Name="p_Cedula" Mode="In" Type="Int32" />
+      <Parameter Name="p_codigoLibro" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

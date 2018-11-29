@@ -1,0 +1,65 @@
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Comtic_Biblioteca.exe.config
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Comtic_Biblioteca.exe
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Comtic_Biblioteca.pdb
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Properties.Resources.resources
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.csproj.GenerateResource.Cache
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.exe
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.pdb
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.frmBiblioteca.resources
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Formularios.frmEstudiante.resources
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Gma.QrCodeNet.Encoding.dll
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Gma.QrCodeNet.Encoding.xml
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.csprojResolveAssemblyReference.cache
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Formularios.frmLibro.resources
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Formularios.frmPrestamo.resources
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\LibreriasSW.dll
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\MySql.Data.dll
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\MySql.Data.xml
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Interop.OposScanner_CCO.dll
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Interop.ZebraScannerSO.dll
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.csproj.ResolveComReference.cache
+c:\users\asus-pc\documents\visual studio 2015\Projects\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\LibreriasSW.pdb
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Comtic_Biblioteca.exe.config
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Interop.OposScanner_CCO.dll
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Interop.ZebraScannerSO.dll
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.csproj.ResolveComReference.cache
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.exe
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.pdb
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Comtic_Biblioteca.exe
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Comtic_Biblioteca.pdb
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\LibreriasSW.dll
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\MySql.Data.dll
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\LibreriasSW.pdb
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\MySql.Data.xml
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.csprojResolveAssemblyReference.cache
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.frmBiblioteca.resources
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Formularios.frmEstudiante.resources
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Formularios.frmLibro.resources
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Formularios.frmPrestamo.resources
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Properties.Resources.resources
+C:\Users\ESTEBAN\Desktop\COMTIC Prueba seleccion\Programa\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.csproj.GenerateResource.Cache
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Comtic_Biblioteca.exe.config
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Interop.OposScanner_CCO.dll
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Interop.ZebraScannerSO.dll
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.csproj.ResolveComReference.cache
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.exe
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.pdb
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Comtic_Biblioteca.exe
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Comtic_Biblioteca.pdb
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\LibreriasSW.dll
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\MySql.Data.dll
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\Gma.QrCodeNet.Encoding.xml
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\LibreriasSW.pdb
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\bin\Debug\MySql.Data.xml
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.csprojResolveAssemblyReference.cache
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.frmBiblioteca.resources
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Formularios.frmEstudiante.resources
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Formularios.frmLibro.resources
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Formularios.frmPrestamo.resources
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.Properties.Resources.resources
+D:\Desarrollos\COMTIC Prueba seleccion\Programa FINAL\Comtic_Biblioteca\Comtic_Biblioteca\obj\Debug\Comtic_Biblioteca.csproj.GenerateResource.Cache
